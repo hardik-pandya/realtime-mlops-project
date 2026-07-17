@@ -9,7 +9,7 @@ spec:
     model:
       modelFormat:
         name: sklearn
-      storageUri: s3://churn-model-bucket-cicd-hp/models/churn_model.pkl
+      storageUri: s3://churn-model-demo-cicd-hp/models/churn_model.pkl
       resources:
         requests:
           cpu: "100m"
