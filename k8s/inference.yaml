@@ -10,3 +10,10 @@ spec:
       modelFormat:
         name: sklearn
       storageUri: s3://churn-model-bucket-cicd-hp/models/churn_model.pkl
+      resources:
+        requests:
+          cpu: "100m"
+          memory: "256Mi"
+        limits:
+          cpu: "1"
+          memory: "512Mi"
