@@ -9,4 +9,4 @@ spec:
     model:
       modelFormat:
         name: sklearn
-      storageUri: "s3://churn-model-demo-mlops-hp/models/"
+      storageUri: s3://churn-model-bucket-cicd-hp/models/churn_model.pkl
