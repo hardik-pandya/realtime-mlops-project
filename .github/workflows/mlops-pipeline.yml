@@ -46,7 +46,7 @@ jobs:
 
     - name: Push model to S3 directly
       run: |
-        aws s3 cp churn_model.pkl s3://${{ env.S3_BUCKET_NAME }}/models/churn_model.pkl
+        aws s3 cp models/churn_model.pkl s3://${{ env.S3_BUCKET_NAME }}/models/churn_model.pkl
 
     - name: Update inference.yaml with S3 model path
       run: |
