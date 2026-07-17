@@ -1,0 +1,13 @@
+project: default
+source:
+  repoURL: https://github.com/hardik-pandya/realtime-mlops-project
+  path: k8s
+  targetRevision: main
+destination:
+  server: https://kubernetes.default.svc
+  namespace: churn-demo
+syncPolicy:
+  automated:
+    prune: false
+    selfHeal: false
+    enabled: true
