@@ -31,8 +31,8 @@ jobs:
 
     - name: Generate Data Set
       run: |
-        python generate_dataset.py
-        
+        python generate_data.py
+
     - name: Train model
       run: |
         python train.py
